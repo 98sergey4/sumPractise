@@ -5,4 +5,4 @@ install:
 - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
 - xbuild /p:Configuration=Release calculator_tp_lab_1/calculator_tp_lab_1.sln
-- mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./calculator_tp_lab_1/CalcTests/bin/Release/CalcTests.dll
+- mono ./testrunner/NUnit.ConsoleRunner.2.6.4/tools/nunit3-console.exe ./calculator_tp_lab_1/CalcTests/bin/Release/CalcTests.dll
