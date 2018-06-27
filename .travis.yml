@@ -3,6 +3,10 @@ solution: WF_lab3.sln
 install:
 - nuget restore WF_lab3/WF_lab3.sln
 - nuget install NUnit.Runners -Version 3.7.0 -OutputDirectory testrunner
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 3
 script:
 - xvfb-run make test
 - xvfb-run --server-args="-screen 0 1024x768x24" make test
