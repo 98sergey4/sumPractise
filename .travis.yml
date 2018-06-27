@@ -5,5 +5,6 @@ install:
 - nuget install NUnit.Runners -Version 3.7.0 -OutputDirectory testrunner
 script:
 - xvfb-run make test
+- xvfb-run --server-args="-screen 0 1024x768x24" make test
 - xbuild /p:Configuration=Release WF_lab3/WF_lab3.sln
 - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./WF_lab3/test/bin/Release/test.dll
