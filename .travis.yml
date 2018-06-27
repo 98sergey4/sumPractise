@@ -1,0 +1,8 @@
+language: csharp
+solution: kvadratnoye_lab2_tp.sln
+install:
+- nuget restore ./kvadratnoye_lab2_tp/kvadratnoye_lab2_tp.sln
+- nuget install NUnit.Runners -Version 3.7.0 -OutputDirectory testrunner
+script:
+- xbuild /p:Configuration=Release kvadratnoye_lab2_tp/kvadratnoye_lab2_tp.sln
+- mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./kvadratnoye_lab2_tp/Tests/bin/Release/Tests.dll
