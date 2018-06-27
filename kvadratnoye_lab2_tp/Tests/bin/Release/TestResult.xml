@@ -1,23 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\Tests\bin\Release\Tests.dll" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-06-27" time="05:50:35">
+<test-results name="C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\Tests\bin\Release\Tests.dll" total="11" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-06-27" time="06:09:05">
   <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8830" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\Tests\bin\Release" machine-name="DESKTOP-4E05INC" user="s.chyshkala" user-domain="DESKTOP-4E05INC" />
   <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
-  <test-suite type="Assembly" name="C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\Tests\bin\Release\Tests.dll" executed="True" result="Success" success="True" time="12.949" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\Tests\bin\Release\Tests.dll" executed="True" result="Success" success="True" time="11.855" asserts="0">
     <results>
-      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="12.928" asserts="0">
+      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="11.833" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="Class1" executed="True" result="Success" success="True" time="12.925" asserts="0">
+          <test-suite type="TestFixture" name="Class1" executed="True" result="Success" success="True" time="11.830" asserts="0">
             <results>
-              <test-case name="Tests.Class1.Test1" executed="True" result="Success" success="True" time="0.969" asserts="2" />
-              <test-case name="Tests.Class1.Test2" executed="True" result="Success" success="True" time="0.062" asserts="2" />
-              <test-case name="Tests.Class1.Test22" executed="True" result="Success" success="True" time="0.063" asserts="2" />
+              <test-case name="Tests.Class1.Test1" executed="True" result="Success" success="True" time="1.040" asserts="2" />
+              <test-case name="Tests.Class1.Test11" executed="True" result="Success" success="True" time="0.079" asserts="2" />
+              <test-case name="Tests.Class1.Test111" executed="True" result="Success" success="True" time="0.064" asserts="2" />
+              <test-case name="Tests.Class1.Test2" executed="True" result="Success" success="True" time="0.068" asserts="2" />
+              <test-case name="Tests.Class1.Test22" executed="True" result="Success" success="True" time="0.062" asserts="2" />
               <test-case name="Tests.Class1.Test222" executed="True" result="Success" success="True" time="0.062" asserts="2" />
-              <test-case name="Tests.Class1.Test3" executed="True" result="Success" success="True" time="3.073" asserts="2" />
-              <test-case name="Tests.Class1.Test33" executed="True" result="Success" success="True" time="3.648" asserts="2" />
-              <test-case name="Tests.Class1.Test4" executed="True" result="Success" success="True" time="2.688" asserts="2" />
-              <test-case name="Tests.Class1.Test44" executed="True" result="Success" success="True" time="0.730" asserts="2" />
-              <test-case name="Tests.Class1.Test444" executed="True" result="Success" success="True" time="1.499" asserts="2" />
+              <test-case name="Tests.Class1.Test3" executed="True" result="Success" success="True" time="4.818" asserts="2" />
+              <test-case name="Tests.Class1.Test33" executed="True" result="Success" success="True" time="0.606" asserts="2" />
+              <test-case name="Tests.Class1.Test4" executed="True" result="Success" success="True" time="2.910" asserts="2" />
+              <test-case name="Tests.Class1.Test44" executed="True" result="Success" success="True" time="0.563" asserts="2" />
+              <test-case name="Tests.Class1.Test444" executed="True" result="Success" success="True" time="1.413" asserts="2" />
             </results>
           </test-suite>
         </results>

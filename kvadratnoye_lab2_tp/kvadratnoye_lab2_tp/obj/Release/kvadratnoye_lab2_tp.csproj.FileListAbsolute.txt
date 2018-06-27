@@ -18,3 +18,4 @@ C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\kvadratnoy
 C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\kvadratnoye_lab2_tp\obj\Release\kvadratnoye_lab2_tp.Form1.resources
 C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\kvadratnoye_lab2_tp\obj\Release\kvadratnoye_lab2_tp.Properties.Resources.resources
 C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\kvadratnoye_lab2_tp\obj\Release\kvadratnoye_lab2_tp.csproj.GenerateResource.Cache
+C:\Users\s.chyshkala\Desktop\praktika\sumPractise\kvadratnoye_lab2_tp\kvadratnoye_lab2_tp\obj\Release\kvadratnoye_lab2_tp.csprojResolveAssemblyReference.cache
