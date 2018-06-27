@@ -1,0 +1,11 @@
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\bin\Debug\WF_lab_4.exe.config
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\bin\Debug\WF_lab_4.exe
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\bin\Debug\WF_lab_4.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\obj\Debug\WF_lab_4.csprojResolveAssemblyReference.cache
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\obj\Debug\WF_lab_4.Form1.resources
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\obj\Debug\WF_lab_4.Properties.Resources.resources
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\obj\Debug\WF_lab_4.csproj.GenerateResource.Cache
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\obj\Debug\WF_lab_4.exe
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\obj\Debug\WF_lab_4.pdb
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\obj\Debug\WF_lab_4.Form2.resources
+c:\users\vadim\documents\visual studio 2015\Projects\WF_lab_4\WF_lab_4\obj\Debug\WF_lab_4.Form3.resources
