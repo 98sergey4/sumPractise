@@ -23,7 +23,7 @@ namespace kvadratnoye_lab2_tp
 
         public Form1()
         {
-            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("US"); //меняем глобализацию
+            
             InitializeComponent();
 
         }
