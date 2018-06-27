@@ -10,33 +10,7 @@ namespace test
 {
     public class Class1
     {
-        [Test]
-        public void TestMethod4() //рассчет мат ожидания и дисперсии
-        {
-            Form1 test = new Form1();
-            test.arr[0] = 2;
-            test.arr[1] = 9;
-            test.arr[2] = 26;
-            test.arr[3] = 38;
-            test.N = 4;
-            string expected = "Мат ожидание: 18,75, Дисперсия: 266,25";
-            test.First();
-            Assert.That(expected, Is.EqualTo(test.textBox2.Text));
-        }
-
-        [Test]
-        public void TestMethod44() //рассчет мат ожидания и дисперсии
-        {
-            Form1 test = new Form1();
-            test.arr[0] = -20;
-            test.arr[1] = 4;
-            test.arr[2] = 600;
-            test.arr[3] = -1502;
-            test.N = 4;
-            string expected = "Мат ожидание: -229,5, Дисперсия: 801913";
-            test.First();
-            Assert.That(expected, Is.EqualTo(test.textBox2.Text));
-        }
+       
         [Test]
         public void TestMethod1()
         {
