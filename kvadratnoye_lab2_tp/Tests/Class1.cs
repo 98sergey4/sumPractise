@@ -11,7 +11,7 @@ namespace Tests
     public class Class1
     {
         [Test]
-        public void Test1() //дискриминант больше 0
+        public void Test1()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -27,7 +27,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test11() //дискриминант больше 0
+        public void Test11()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -45,7 +45,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test111() //дискриминант больше 0
+        public void Test111()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -63,7 +63,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test2() //дискриминант больше 0
+        public void Test2()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -79,7 +79,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test22() //дискриминант больше 0
+        public void Test22()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -95,7 +95,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test222() //дискриминант больше 0
+        public void Test222()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -111,7 +111,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test3() //дискриминант больше 0
+        public void Test3()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -127,7 +127,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test33() //дискриминант больше 0
+        public void Test33()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -143,7 +143,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test4() //дискриминант больше 0
+        public void Test4()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -159,7 +159,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test44() //дискриминант больше 0
+        public void Test44()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
@@ -175,7 +175,7 @@ namespace Tests
             Assert.That(test.result1, Is.EqualTo(expected));
         }
         [Test]
-        public void Test444() //дискриминант больше 0
+        public void Test444()
         {
             EventArgs e = new EventArgs();
             Form1 test = new Form1();
