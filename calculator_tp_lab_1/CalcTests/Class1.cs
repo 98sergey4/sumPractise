@@ -12,49 +12,6 @@ namespace CalcTests
     public class Tests
     {
         [Test]
-        public void Test1 ()
-        {
-            Class1 test1 = new Class1();
-            char operation_key = '+';
-            bool operation_active1 = false;
-            bool operation_active2 = true;
-            double result = 25;
-            string textBox1Text = "21,2";
-            double number = 0;
-            double expected = 46.2;
-            test1.Operations(ref operation_key, textBox1Text, ref result, ref operation_active1, ref number, ref operation_active2);
-            Assert.That(result, Is.EqualTo(expected));
-        }
-        [Test]
-        public void Test11()
-        {
-            Class1 test1 = new Class1();
-            char operation_key = '+';
-            bool operation_active1 = false;
-            bool operation_active2 = true;
-            double result = 120.12;
-            string textBox1Text = "29,88";
-            double number = 0;
-            double expected = 150;
-            test1.Operations(ref operation_key, textBox1Text, ref result, ref operation_active1, ref number, ref operation_active2);
-            Assert.That(result, Is.EqualTo(expected));
-        }
-        [Test]
-        public void Test2()
-        {
-            Class1 test1 = new Class1();
-            char operation_key = '-';
-            bool operation_active1 = false;
-            bool operation_active2 = true;
-            double result = 25;
-            string textBox1Text = "21,2";
-            double number = 0;
-            double expected = 3.8;
-            test1.Operations(ref operation_key, textBox1Text, ref result, ref operation_active1, ref number, ref operation_active2);
-            result = Math.Round(result, 1);
-            Assert.That(result, Is.EqualTo(expected));
-        }
-        [Test]
         public void Test22()
         {
             Class1 test1 = new Class1();
