@@ -2,7 +2,7 @@ language: csharp
 solution: WF_lab3.sln
 install:
 - nuget restore WF_lab3/WF_lab3.sln
-- nuget install NUnit.Runners -Version 3.12 -OutputDirectory testrunner
+- nuget install NUnit.Runners -Version 3.7.0 -OutputDirectory testrunner
 script:
 - xbuild /p:Configuration=Release WF_lab3/WF_lab3.sln
-- mono ./testrunner/NUnit.ConsoleRunner.3.12/tools/nunit3-console.exe ./WF_lab3/test/bin/Release/test.dll
+- mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./WF_lab3/test/bin/Release/test.dll
